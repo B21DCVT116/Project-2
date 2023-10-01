@@ -1,0 +1,311 @@
+:root{
+    --text-color-title: #1e1e1e;
+    --text-color-desc: #777777;
+    --color-box-1: #8261ee;
+    --color-box-2: #ff589e;
+}
+/* @Section-1 */
+.section-1{
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.section-1 .col-12 .main-nav{
+    border-radius: 50px ;
+    background-color: #fff;
+    height: 80px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.section-1 .col-12 .logo{
+    float: left;
+    margin-left: 20px;
+}
+.section-1 .col-12 .logo img{
+    margin-top: 25px;
+}
+.section-1 .col-12 .nav{
+    float: right;
+    margin-top: 25px;
+    margin-right: 12px;
+}
+.section-1 .col-12 .nav a{
+    padding: 0 20px;
+    color: #1e1e1e;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.section-1 .col-12 li .active{
+    color: var(--color-box-2);
+}
+.section-1 .col-12 .nav li a:hover{
+    color: var(--color-box-2);
+    text-decoration: none;
+}
+.section-1 .col-12 .icon{
+    display: none;
+}
+@media (max-width: 1200px){
+    .section-1 .col-12 .nav a {
+        padding: 0 12px;
+    }
+}
+@media (max-width:992px) {
+    .section-1 .col-12 .icon{
+        display: block;
+        float: right;
+        font-size: 40px;
+        line-height: 85px;
+        cursor: pointer;
+        margin-right: 30px;
+    }
+    .section-1 .col-12 .nav{
+        display: none;
+    }
+}
+/* @Section-1 */
+
+/* #Section 2 */
+.welcome{
+    position: relative;
+    height: 100vh;
+    background-image: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/banner-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.welcome .text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    width: 100%;
+    text-align: center;
+}
+.welcome .text .welcome-title{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.welcome .text .welcome-desc{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.welcome .text .button{
+    background-color: var(--color-box-2);
+}
+.welcome .text .button:hover{
+    background-color: var(--color-box-1);
+}
+@media (max-width:991px) {
+    .welcome .text .welcome-title{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .welcome .text .welcome-desc{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:820px) {
+    .welcome .text .welcome-title{
+        font-size: 22px;
+    }
+}
+/* #Section 2 */
+/* !Section 3 */
+.section-3{
+    padding-top: 30px;
+    margin-top: -220px;
+}
+.section-3 .box{
+    cursor: pointer;
+}
+.section-3 .box .icon{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: var(--color-box-1);
+    text-align: center;
+    line-height: 90px;
+    transition: all 0.3s;
+}
+.section-3 .box .icon:hover{
+    background-color: var(--color-box-2);
+}
+.section-3 .box h5{
+    font-size: 18px;
+    color: var(--text-color-title);
+    margin-bottom: 15px;
+}
+.section-3 .box p{
+    font-size: 14px;
+    color: var(--text-color-desc);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+/* !Section 3 */
+/* todo Section 4 */
+.section-4 .row img{
+    display: block;
+    margin: auto;
+}
+.section-4 .row h2{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--text-color-title);
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+.section-4 .row p{
+    font-size: 16px;
+    color: var(--text-color-desc);
+    margin-bottom: 30px;
+    letter-spacing: 0.75px;
+}
+.section-4 hr{
+    margin:0;
+}
+/* todo Section 4 */
+/* *Section 5 */
+.section-5{
+    padding: 90px 0;
+    position: relative;
+    min-height: 215px;
+    overflow: hidden;
+}
+.section-5:before{
+    content: "";
+    position: absolute;
+    background-image: url(https://templatemo.com/templates/templatemo_535_softy_pinko/assets/images/work-process-bg.png);
+    width: 140%;
+    height: 140%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    top: -20%;
+    left: -20%;
+}
+.section-5 .inner-content .header{
+    text-align: center;
+    padding: 10px 0 ;
+}
+.section-5 .inner-content .header h1{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5;
+    font-weight: 500px;
+}
+.section-5 .inner-content .header p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 40px;
+    letter-spacing: 0.5;
+    font-weight: 400px;
+}
+.section-5 .inner-content .inner-box{
+    display: block;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.18)  10px 10px ;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+    position: relative;
+}
+.section-5 .inner-content .inner-box:hover{
+    transform: translateY(-10px);
+}
+.section-5 .inner-content .inner-box img{
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.section-5 .inner-content .inner-box strong{
+    display: block;
+    color: #1e1e1e;
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.section-5 .inner-content .inner-box p{
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    margin: 0;
+}
+/* *Section 5 */
+/* ?section 6 */
+.section-6{
+    padding: 100px 0 80px;
+}
+.section-6 .header{
+    text-align: center;
+}
+.section-6 .header h2{
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    color: var(--text-color-title);
+}
+.section-6 .header p{
+    font-size: 15px;
+    color: var(--text-color-desc);
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+}
+.section-6 .box img{
+    margin: 0 auto;
+}
+.section-6 .box p{
+    color: var(--text-color-desc);
+    font-size: 15px;
+    margin: 25px 0;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.section-6 .box .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    float: left;
+}
+.section-6 .box .info-team{
+    float: left;
+    margin: 8px 0 0 25px;
+    transition: all 0.3s;
+}
+.section-6 .box .info-team .name{
+    color: var(--text-color-title);
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.section-6 .box .info-team .work{
+    color: var(--color-box-2);
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.section-6 .box .clear-fix{
+    clear: both;
+}
+.section-6 .box{
+    text-align: left;
+}
+.section-6 .box:hover .info-team{
+    transform: translateX(15px);
+}
+/* ?section 6 */
