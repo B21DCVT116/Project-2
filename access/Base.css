@@ -21,6 +21,7 @@ ul{
     outline: none;
     color: #fff;
     background-color: var(--color-box-1);
+    transition: all 0.3s;
 }
 .button:hover{
     background-color: var(--color-box-2);
