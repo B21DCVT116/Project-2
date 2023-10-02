@@ -362,6 +362,10 @@
 .section-7 .body-box ul .decoration{
     text-decoration: line-through;
 }
+.section-7 .footer-box a:hover{
+    text-decoration: none;
+    color: #fff;
+}
 /* !section 7 */
 
 
