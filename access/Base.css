@@ -3,6 +3,10 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+*::selection{
+    color: #fff;
+    background-color: var(--color-box-2);
+}
 :root{
     --text-color-title: #1e1e1e;
     --text-color-desc: #777777;
